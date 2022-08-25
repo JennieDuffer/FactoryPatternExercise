@@ -19,8 +19,19 @@ namespace FactoryPatternExercise
                 default:
                     return new Truck();
 
+
+                    //if (numberOfTires == 4)
+                    //{
+                    //    return new Car();
+                    //}
+                    //else
+                    //{
+                    //    return new Truck();
+
+                    //}
+
+
             }
         }
-
     }
 }
